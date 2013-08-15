@@ -1,0 +1,97 @@
+.button-1{
+
+	/*Effects*/
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px; /* border radius */
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box; /* prevents bg color from leaking outside the border */
+	background-color: #07a4ff; /* layer fill content */
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iaGF0MCIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHgxPSI1MCUiIHkxPSIxMjUlIiB4Mj0iNTAlIiB5Mj0iLTI1JSI+CjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwYzkyZTAiIHN0b3Atb3BhY2l0eT0iMSIvPgo8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwN2E0ZmYiIHN0b3Atb3BhY2l0eT0iMCIvPgogICA8L2xpbmVhckdyYWRpZW50PgoKPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9InVybCgjaGF0MCkiIC8+Cjwvc3ZnPg==); /* gradient overlay */
+	background-image: -moz-linear-gradient(bottom, #0c92e0 -25%, rgba(7,165,255,0) 125%); /* gradient overlay */
+	background-image: -o-linear-gradient(bottom, #0c92e0 -25%, rgba(7,165,255,0) 125%); /* gradient overlay */
+	background-image: -webkit-linear-gradient(bottom, #0c92e0 -25%, rgba(7,165,255,0) 125%); /* gradient overlay */
+	background-image: linear-gradient(bottom, #0c92e0 -25%, rgba(7,165,255,0) 125%); /* gradient overlay */
+	
+	/*Dimensions*/
+	width: 160px;
+	height: 40px;
+	
+	/*Transitions*/
+	-webkit-transition: all 0.2s ease ;
+	-moz-transition: all 0.2s ease ;
+	-ms-transition: all 0.2s ease ;
+	-o-transition: all 0.2s ease ;
+	transition: all 0.2s ease ;
+
+	cursor: pointer;
+
+}
+
+.button-1:active{
+
+background-color:#86cff8;
+
+-webkit-transition: all 0.2s ease ;
+-moz-transition: all 0.2s ease ;
+-ms-transition: all 0.2s ease ;
+-o-transition: all 0.2s ease ;
+transition: all 0.2s ease ;
+
+}
+
+.button-1:hover{
+
+background-color:#86cff8;
+
+-webkit-transform: scale(1.5);
+-moz-transform: scale(1.5);
+-ms-transform: scale(1.5);
+-o-transform: scale(1.5);
+transform: scale(1.5);
+
+-webkit-transition: all 0.2s ease ;
+-moz-transition: all 0.2s ease ;
+-ms-transition: all 0.2s ease ;
+-o-transition: all 0.2s ease ;
+transition: all 0.2s ease ;
+
+}
+
+.button-1 span{
+
+	line-height: 40px;
+	float: left;
+
+	-webkit-transition: all 0.2s ease ;
+	-moz-transition: all 0.2s ease ;
+	-ms-transition: all 0.2s ease ;
+	-o-transition: all 0.2s ease ;
+	transition: all 0.2s ease ;
+	
+}
+
+
+.button-1 p{
+	font-family: 'helvetica-light';
+	margin-left: 2.8em;
+	line-height: 40px;
+	color: #0b60aa;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

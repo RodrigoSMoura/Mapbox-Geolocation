@@ -1,0 +1,41 @@
+body, html{
+margin: 0 0 0 0;
+padding: 0 0 0 0;
+height: 100%
+
+}
+
+#button-1{
+	visibility: hidden;
+}
+
+#button-wrapper{
+	margin: 0 auto;
+	margin-top: 22%;
+	width: 100%;
+	
+	position: absolute;
+	
+}
+
+
+#botao{
+position: relative;
+margin: 0 auto;
+
+}
+
+#black-cape{
+position: absolute;
+width: 100%;
+height: 100%;
+
+background: rgba(0,0,0,0.98);
+
+}
+
+#map{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}

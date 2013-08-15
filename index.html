@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		
+		<title>Geolocation Map | Tests</title>
+
+		<!-- links -->
+		
+		<link rel='stylesheet' href='css/normalize.css'><link rel='stylesheet' href='css/f-style.css'><link rel='stylesheet' href='css/button-style.css'><link rel='stylesheet' href='css/style.css'><link rel='stylesheet' href='css/animations.css'><link rel='stylesheet' href='css/mapbox.css'/>
+		
+	<!--[if lte IE 8]>
+    	<link href='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.ie.css' rel='stylesheet' >
+  	<![endif]-->
+			
+		<!-- /links -->
+	</head>
+<body>
+
+
+
+<div id="map"></div>
+
+<div id="black-cape"></div>
+
+<div id="button-wrapper">
+	<div id='botao' class="button-1 bigEntrance"> 
+		<span data-icon="&#xe081" aria-hidden="true"></span>
+		<p>Find yourself!</p>
+	</div>
+</div>
+
+
+<!-- scripts -->
+	
+	<script src='js/jquery-1.10.2.js'></script>
+	<script src='js/mapbox.js'></script>
+	<script src='js/fadeBackground.js'></script>
+
+	<script type='text/javascript'>
+		var map = L.mapbox.map('map', 'davimachado.map-60syremz');
+	</script>	
+
+<!-- /scritps -->
+</body>
+</html>
